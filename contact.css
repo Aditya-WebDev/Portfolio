@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&display=swap');
+
+.sidebar{
+    background-color: rgb(168, 160, 160);
+    
+    font-family: 'Open Sans', sans-serif;
+    height: 170vh;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+   text-decoration: none;
+   color: darkslategrey;
+}
+.main{
+    /* background-color: blueviolet; */
+    width: 110vw;
+}
+.container{
+    display: flex;
+    /* background-color: khaki; */
+}
+.infoContainer{
+    /* background-color: brown; */
+    display: flex;
+    height: 42vh;
+    width: 84vw;
+    margin: 180px auto;
+    justify-content: space-around;
+}
+.contactform{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0 34px;
+    padding-top: 74px;
+    text-align: center;
+    
+}
+.clientmail{
+    padding: 27px 0;
+}
+.clientnumber{
+    padding: 27px 0;
+}
+.contactform h1{
+    font-family: 'Open Sans', sans-serif;
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.contactform  form div{
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px;
+    padding: 3px;
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+.buttons{
+    margin: 35px;
+}
+.buttons button{
+    padding: 9px auto;
+    border-radius: 22px;
+    color: aliceblue;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+
+}
+.buttons button:hover{
+    
+    background-color: aliceblue;
+    color: dodgerblue;
+}
+
+#advice{
+    font-size: 8px;
+    color: rgb(11, 11, 58);
+    margin: 0 5px;
+}
+/*@media (max-width: 1615px) {
+    .sidebar{
+        width: 200px; 
+        float: left; 
+        width: 170px;
+    }
+    
+  }
+  */

@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&display=swap');
+.sidebar{
+    background-color: rgb(168, 160, 160);
+    
+    font-family: 'Open Sans', sans-serif;
+    height: 352vh;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+   text-decoration: none;
+   color: darkslategrey;
+}
+.main{
+    /* background-color: blueviolet; */
+    width: 110vw;
+}
+.container{
+    display: flex;
+    /* background-color: khaki; */
+}
+.infoContainer{
+    /* background-color: brown; */
+    display: flex;
+    height: 42vh;
+    width: 84vw;
+    margin: 180px auto;
+    justify-content: space-around;
+}
+#blog{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 53px;
+}
+#details{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 25px;
+}
+#paragraph{
+    margin-left: 136px;
+    margin-right: 136px;
+    margin-top: 60px;
+    font-size: 25px;
+}
+/*@media (max-width: 1615px) {
+    .sidebar{
+        width: 200px; 
+        float: left; 
+        width: 170px;}
+    
+  }
+  */

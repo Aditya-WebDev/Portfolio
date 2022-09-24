@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&display=swap');
+.sidebar{
+    background-color: rgb(168, 160, 160);
+    
+    font-family: 'Open Sans', sans-serif;
+    height: 170vh;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+   text-decoration: none;
+   color: darkslategrey;
+}
+.main{
+    /* background-color: blueviolet; */
+    width: 110vw;
+    
+}
+.container{
+    display: flex;
+    /* background-color: khaki; */
+}
+.infoContainer{
+    /* background-color: brown; */
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    height: 42vh;
+    width: 84vw;
+    margin: 5px auto;
+    justify-content: space-around;
+}
+
+.devPic img{
+    width: 30vh;
+    height: 30vh;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    text-align: center;
+    font-size: 65px;
+    font-family: 'Open Sans', sans-serif;
+}
+.name{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+.about{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+.moreAbout{
+    font-size: 25px;
+    margin: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+.buttons{
+    margin: 35px;
+}
+.buttons button{
+    padding: 9px auto;
+    border-radius: 22px;
+    color: aliceblue;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    
+    background-color: aliceblue;
+    color: dodgerblue;
+}
+ /*@media (max-width: 1500px) {
+    .sidebar{
+        
+        float: left; 
+        width: 112px;
+        text-align: center;
+    }
+    .infoContainer{
+        width: 112px;
+        /*text-align: center; 
+    }
+  }
+  @media (max-width: 900px) {
+    .sidebar{
+        
+        float: left; 
+        width: 80px;
+        text-align: center;
+    }
+    .infoContainer{
+        width: 112px;
+        text-align: center;
+        margin-left: 5px;
+    }
+  }
+@media (max-width: 600px) {
+    .sidebar{
+        
+        float: left; 
+        width: 80px;
+        text-align: center;
+    }
+    .infoContainer{
+        width: 112px;
+        text-align: center;
+    }
+  }
+  */

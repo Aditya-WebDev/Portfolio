@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&display=swap');
+.sidebar{
+    background-color: rgb(168, 160, 160);
+    
+    font-family: 'Open Sans', sans-serif;
+    height: 281vh;
+    width: auto;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+   text-decoration: none;
+   color: darkslategrey;
+}
+.main{
+    /* background-color: blueviolet; */
+    width: 110vw;
+}
+.container{
+    display: flex;
+    /* background-color: khaki; */
+}
+
+#about{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 70px;
+    font-size: 50px;
+}
+#skills{
+    text-align: center;
+}
+.mySkill{
+    margin-top: 50px;
+    margin-left: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+#personal{
+    margin-left: 78px;
+    margin-right: 78px;
+    margin-top: 43px;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+/*@media (max-width: 1615px) {
+    .sidebar{
+        width: 200px; 
+        float: left; 
+        width: 170px;}
+    
+  }
+  */
